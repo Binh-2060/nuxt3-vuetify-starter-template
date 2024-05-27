@@ -1,1 +1,3 @@
-// here is list of endpoint for your api 
+// here is list of endpoint for your api
+
+export default {};
