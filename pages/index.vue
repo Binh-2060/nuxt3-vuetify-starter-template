@@ -13,6 +13,6 @@ const OnSetDate = (value: any) => {
 </script>
 
 <template>
-  <div>{{ globalStore.count }}</div>
+  <div>{{ globalStore.count }} ການສະແດງຜົນ</div>
   <DatePicker :date="datenow" @onSetDate="OnSetDate" />
 </template>

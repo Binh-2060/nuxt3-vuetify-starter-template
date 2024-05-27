@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "NotoSansLao";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/NotoSansLao-Regular.ttf");
+}
+
+@font-face {
+  font-family: "NotoSansLao-Bold";
+  font-style: normal;
+  font-weight: 700 inherit !important;
+  src: url("/fonts/NotoSansLao-Bold.ttf");
+}
+
+$navigation-drawer-border-width: 0;
+
+$primary-color: #ff5722;
+
+.v-navigation-drawer__border {
+  display: none;
+}
+
+$body-font-family: "NotoSansLao";
+$title-font: "NotoSansLao";
+
+body {
+  font-family: "NotoSansLao", sans-serif;
+}
+
+.v-application {
+  font-family: $body-font-family, sans-serif !important;
+
+  .title {
+    font-family: $title-font, sans-serif !important;
+  }
+}
+
+.swal2-container {
+  font-family: "NotoSansLao", Avenir, Helvetica, Arial, sans-serif;
+}
+
+.vue-toast {
+  font-family: "NotoSansLao", Avenir, Helvetica, Arial, sans-serif;
+}
+
+label.required {
+  &::after {
+    content: "*";
+    color: red;
+  }
+}
+
+.required label::after {
+  content: "*";
+  color: red;
+}
