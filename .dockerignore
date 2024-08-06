@@ -1,0 +1,17 @@
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+
+node_modules
+
+# Logs
+logs
+*.l
+
+
+.env
+.env.*
+!.env.e

@@ -16,9 +16,9 @@
     "@vueuse/nuxt": "^10.9.0",
     "axios": "^1.6.8",
     "numeral": "^2.0.6",
-    "nuxt": "^3.11.2",
+    "nuxt": "^3.12.4",
     "pinia": "^2.1.7",
-    "vue": "^3.4.21",
+    "vue": "latest",
     "vue-router": "^4.3.0"
   },
   "devDependencies": {
@@ -28,5 +28,6 @@
     "sass": "^1.77.2",
     "vite-plugin-vuetify": "^2.0.3",
     "vuetify": "^3.5.17"
-  }
+  },
+  "packageManager": "yarn@1.22.19+sha1.4ba7fc5c6e704fce2066ecbfb0b0d8976fe62447"
 }

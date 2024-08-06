@@ -1,17 +1,17 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 import vuetify, { transformAssetUrls } from "vite-plugin-vuetify";
+import { resolve } from "path";
 export default defineNuxtConfig({
   devtools: { enabled: true },
+  ssr: false,
+  compatibilityDate: "2024-04-03",
+  alias: {
+    "@": resolve(__dirname, "./src"),
+  },
 
   app: {
     head: {
       title: "Nuxt3-Starter-Template",
     },
-  },
-
-  devServer: {
-    port: 3001,
-    host: "0.0.0.0",
   },
 
   components: [
@@ -38,7 +38,6 @@ export default defineNuxtConfig({
     "@vueuse/nuxt",
     "dayjs-nuxt",
     "nuxt-lodash",
-    //...
   ],
 
   dayjs: {
