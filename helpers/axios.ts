@@ -29,9 +29,10 @@ axios.interceptors.response.use(
   function (error) {
     if (typeof error !== undefined) {
       if (error.hasOwnProperty("response")) {
-        if (error.response.status === 401 || error.response.status === 403) {
+        const errorStatusCode = error.response.status;
+        if (errorStatusCode === 401 || errorStatusCode === 403) {
           const router = useRouter();
-          router.push({
+          return router.push({
             path: "/login",
           });
         }
