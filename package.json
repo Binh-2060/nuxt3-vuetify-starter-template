@@ -11,24 +11,24 @@
   },
   "dependencies": {
     "@mdi/font": "^7.4.47",
-    "@pinia/nuxt": "^0.9.0",
-    "@vuepic/vue-datepicker": "^10.0.0",
-    "@vueuse/nuxt": "^12.2.0",
-    "axios": "^1.7.9",
+    "@pinia/nuxt": "^0.11.2",
+    "@vuepic/vue-datepicker": "^11.0.2",
+    "@vueuse/nuxt": "^13.6.0",
+    "axios": "^1.11.0",
     "numeral": "^2.0.6",
-    "nuxt": "^3.14.1592",
-    "pinia": "^2.3.0",
-    "sweetalert2": "^11.15.3",
+    "nuxt": "3.18.1",
+    "pinia": "^3.0.3",
+    "sweetalert2": "^11.22.3",
     "vue": "latest",
-    "vue-router": "^4.3.0"
+    "vue-router": "^4.5.1"
   },
   "devDependencies": {
     "@types/numeral": "^2.0.5",
     "dayjs-nuxt": "^2.1.11",
     "nuxt-lodash": "^2.5.3",
-    "sass": "^1.83.0",
-    "vite-plugin-vuetify": "^2.0.4",
-    "vuetify": "^3.7.6"
+    "sass": "^1.90.0",
+    "vite-plugin-vuetify": "^2.1.2",
+    "vuetify": "^3.9.5"
   },
   "packageManager": "yarn@1.22.19+sha1.4ba7fc5c6e704fce2066ecbfb0b0d8976fe62447"
 }
